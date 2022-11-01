@@ -26,7 +26,7 @@ import { Task } from "../models/task.model";
             for="title-{{task.id}}"
             class="title"
         >
-            <input
+            <input 
                 type="text"
                 [value]="task.title"
                 readonly="true"
